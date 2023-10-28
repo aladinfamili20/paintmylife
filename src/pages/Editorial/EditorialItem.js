@@ -65,8 +65,12 @@ const EditorialItem = ( ) => {
      </div>   
     <div className='pool-info'>
     <div>           
-     <h1> Wedding, Anniversary
-</h1>
+   <div>
+   <h1> Wedding, Anniversary
+    </h1>
+    <h2> Oil on Canvas
+    </h2>
+   </div>
  
        <Link to={'/wedding'}>
       <div className="price">

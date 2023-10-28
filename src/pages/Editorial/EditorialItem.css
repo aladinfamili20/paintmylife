@@ -10,6 +10,14 @@
     display: flex;
     justify-content: space-between;
    }
+
+   .themesContainer h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   }
   
   /* Styles for each pool box */
   .pool-box {
@@ -20,7 +28,7 @@
   }
 
   .pool-box h1{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     color: #000000;
     font-family: 'Times New Roman', Times, serif;
