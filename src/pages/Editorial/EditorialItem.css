@@ -4,6 +4,12 @@
     flex-wrap: wrap;
     justify-content: space-between; /* Adjust as needed */
   }
+
+  .themesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
   
   /* Styles for each pool box */
   .pool-box {
