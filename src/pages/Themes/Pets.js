@@ -43,11 +43,12 @@ const Pets =()=>{
   };
 
                const smallImages = [  
-                'https://i.postimg.cc/x8YTcfvv/Animal.jpg',
+                 
+                'https://i.postimg.cc/zGDjqjDJ/two-dog.jpg',
                 'https://i.postimg.cc/TwjT8zzp/bac1.png',
                 'https://i.postimg.cc/SNxk5tDx/bac2.png',
-                'https://i.postimg.cc/QCXhj6DS/eyeZoom.png',
-                'https://i.postimg.cc/pVZPstQS/faceZoom.png',
+                'https://i.postimg.cc/x8YTcfvv/Animal.jpg',
+                'https://i.postimg.cc/QdgRyS4h/Cat.jpg',
                ]; 
                const [mainImage, setMainImage] = useState(smallImages[0]); // set the initial main image
 

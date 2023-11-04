@@ -25,15 +25,15 @@ const EditorialItem = ( ) => {
     <div className="themesContainer">
     <div className='pool-box'>         
        <div >    
-   <Link to={`/pet`}>
+   {/* <Link to={`/pet`}> */}
    <img style={{
     width: '600px',
     height:'700px',
    }} src={require('../../assets/kid.jpg')} alt=""/>  
-   </Link>  
+   {/* </Link>   */}
      </div>   
     <div className='pool-info'>
-    <div>           
+    {/* <div>           
      <h1> Remember a beloved pet
 </h1>
     
@@ -42,13 +42,23 @@ const EditorialItem = ( ) => {
       <h2> Choose</h2> 
       </div>
       </Link>
-    </div> 
+    </div>  */}
     </div> 
       </div>   
 
 
-      <div>
-        <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h2>
+      <div className="themesContent">
+        <h1>What Makes Our Custom Paintings So Special?</h1>
+        <h2>Handcrafted Masterpieces. We partner with truly great artists in creating timeless artistry. You will receive artworks that can be passed down to generations that speaks timelessness, not mundane paintings! </h2>
+        <h2>Wide Range of Themes and Media. From recreating cherished moments to nostalgic family portraits, from oil to pencil, we are versatile in covering different and specific needs</h2>
+        <h2>Deeply committed. We are committed to excellence in artworks and services. Your satisfaction is our top priority.</h2>
+        <h1>Why Choose a Custom Painting</h1>
+        <h2>Unique and Original</h2>
+        <h2>Emotional Connection</h2>
+        <h2>StoryTelling, Artistic Express and Collaboration</h2>
+        <h2>Interior Decor</h2>
+        <h2>Thoughtful Gift</h2>
+        <h2>Heirloom Quality & Timelessness</h2>
       </div>
     </div> 
 
@@ -57,6 +67,34 @@ const EditorialItem = ( ) => {
 
 
        <div className='editorial-container' >
+
+
+       <div className='pool-box'>         
+       <div >    
+   <Link to={`/pet`}>
+   <img src={require('../../assets/twodog.jpg')} alt=""/>  
+   </Link>  
+     </div>   
+    <div className='pool-info'>
+    <div>           
+   <div>
+   <h1> Remember a beloved pet
+    </h1>
+    <h2> Oil on Canvas
+    </h2>
+   </div>
+ 
+       <Link to={'/pet'}>
+      <div className="price">
+      <h2> Choose</h2> 
+      </div>
+      </Link>
+    </div> 
+    </div> 
+      </div>  
+
+
+
        <div className='pool-box'>         
        <div >    
    <Link to={`/wedding`}>
