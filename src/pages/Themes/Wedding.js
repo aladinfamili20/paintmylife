@@ -49,7 +49,7 @@ const Wedding =()=>{
     'https://i.postimg.cc/ry5FCdgC/Wedding2.png',
     'https://i.postimg.cc/mkBjnz91/bac1.png',
     'https://i.postimg.cc/C5cG6vY9/zoom1.png',
-    'https://i.postimg.cc/66cf3QRz/zoom3.png',
+    'https://i.postimg.cc/y8Tq9b8p/cindy-and-justin.jpg',
     'https://i.postimg.cc/D0vQ6VVq/zoom2.png',
    ]; 
    const [mainImage, setMainImage] = useState(smallImages[0]); // set the initial main image

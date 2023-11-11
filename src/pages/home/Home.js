@@ -10,7 +10,7 @@ const Home = () => {
        {/* <Slider /> */}
       <section className="homeContents">         
       <div className="steps">
-       <img src={require('../../assets/StepsMainLong.png')} alt="steps"/>
+       <img src={require('../../assets/StepsMainLong3.png')} alt="steps"/>
        </div> 
        
       <EditorialItem/>

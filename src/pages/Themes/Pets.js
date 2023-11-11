@@ -44,10 +44,11 @@ const Pets =()=>{
 
                const smallImages = [  
                  
-                'https://i.postimg.cc/zGDjqjDJ/two-dog.jpg',
+                 
+                'https://i.postimg.cc/Vv7zcsJt/dog2.jpg',
                 'https://i.postimg.cc/TwjT8zzp/bac1.png',
                 'https://i.postimg.cc/SNxk5tDx/bac2.png',
-                'https://i.postimg.cc/x8YTcfvv/Animal.jpg',
+                'https://i.postimg.cc/zGDjqjDJ/two-dog.jpg',
                 'https://i.postimg.cc/QdgRyS4h/Cat.jpg',
                ]; 
                const [mainImage, setMainImage] = useState(smallImages[0]); // set the initial main image
@@ -83,7 +84,9 @@ const Pets =()=>{
         <img
           key={index}
           style={{           
-            padding: '10px'
+            padding: '10px',
+            width: '200px',
+            height: '200px',
             }}   
           src={smallImage}
           alt={`SmallImage ${index}`}

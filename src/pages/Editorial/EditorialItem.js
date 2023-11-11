@@ -72,7 +72,7 @@ const EditorialItem = ( ) => {
        <div className='pool-box'>         
        <div >    
    <Link to={`/pet`}>
-   <img src={require('../../assets/twodog.jpg')} alt=""/>  
+   <img src={require('../../assets/dog2.jpg')} alt=""/>  
    </Link>  
      </div>   
     <div className='pool-info'>
@@ -203,7 +203,7 @@ const EditorialItem = ( ) => {
     <div className='pool-info'>
     <div>           
      
-    <h1> Connect Generations
+    <h1> Connecting Generations
 </h1>
    
        <Link to={'/generation'}>

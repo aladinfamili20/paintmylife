@@ -75,37 +75,7 @@ const Header = () => {
 {/* <div className='searchBar'>
 <input type='text' placeholder='Search by artirst, style, tag and more' />
 </div> */}
-<div>
-{/* navigation menu */}
-<ul className='nav-links'>
-{/* uising checkbox hack */}
-<input type='checkbox' id='checkbox_toggle'/>
-<label for='checkbox_toggle' className='hamburger'>&#9776;</label>
-{/* navigation menu */}
-<div className='menu'>
- {/* <li className='services'>
-<a href='/artist' className='navName'>Artist</a>
-</li>
-<li className='services' id='navDrop'>
-<a href='/gallery' className='navName'>Artworks</a>
-</li> */}
-  
- {/* <AdimRoute>
- <li><a href="/adminpage" className='navName'>Admin</a></li>  
- </AdimRoute> */}
  
- 
- 
-{/* <li><a href="/profile" className='navName'>Profile</a></li>   */}
-
- 
- <li className='services' id='profileNav'>           
- 
- 
-</li>                     
-  </div>  
-</ul> 
-</div>
 </nav>
 </headers>
 </div> 
